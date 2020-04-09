@@ -1,0 +1,12 @@
+* babel: converter (transpilar) código do React par aum código que o browser entenda
+* webpack: Pra cada tipo de arquivo (.js, .css, .png) eu vou converter o código de uma maneira diferente
+* loaders: babel-loader, css-loader, image-loader
+
+yarn add @babel/core @babel/preset-env @babel/preset-react babel-loader webpack webpack-cli
+
+ @babel/cli para rodar yarn babel src/index.js --out-file public/bundle.js
+
+ yarn webpack --mode development
+
+ yarn add webpack-dev-server -D
+

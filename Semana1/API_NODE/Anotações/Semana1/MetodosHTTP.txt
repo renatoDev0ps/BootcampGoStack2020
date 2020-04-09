@@ -1,0 +1,6 @@
+HTTP Methods
+
+GET: Buscar informações do back-end
+POST: Criar informação no Back-end
+PUT/PATCH: Alterar uma informação no Back-end
+DELETE: Deletar uma informação no Back-end

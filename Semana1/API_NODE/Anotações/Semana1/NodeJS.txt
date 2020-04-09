@@ -1,0 +1,39 @@
+O que é NodeJS?
+
+* JavaScript no back-end;
+  * Não lidamos com eventos do usuário final;
+  * Rotas e Integrações;
+* Plataforma (não é uma lingiagem);
+* Construída em cima da V8;
+* Comparável a PHP / Ruby / Python / Go;
+
+O que é o NPM / Yarn?
+
+* Instalar biblioteca de terceiros;
+* Fornecr bibliotecas;
+* Por que utilizamos o Yarn? Mais rápido
+* Comparáveis:
+  * Composer do PHP;
+  * Gems do Ruby;
+  * PIP do Pythton;
+
+Características do NodeJS
+
+* Arquitetura Event-loop;
+  * Baseada em eventos(Rotas na maioria das vezes);
+  * Call Stack;
+* Node single-thread;
+  * C++ por trás com libuv;
+  * Background threads;
+* Non-blocking I/O;
+
+Frameworks
+
+* ExpressJS como base;
+  * Sem opinião;
+  * Ótimo para iniciar;
+  * Micro-serviços;
+
+* Frameworks opinados;
+  * Adonis
+  * Nest

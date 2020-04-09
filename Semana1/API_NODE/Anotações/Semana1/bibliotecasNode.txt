@@ -1,0 +1,3 @@
+express: controle de rotas
+nodemon: reload do server em desenvolvimento
+uuidv4: cria um id universal único

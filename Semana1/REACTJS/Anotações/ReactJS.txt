@@ -1,0 +1,33 @@
+O que é React?
+
+* Biblioteca para construção de interfaces;
+* Utilizado na construçãp de Single-Page Applications;
+* Podemos chamar o React de Framework? Sim. É um conjunto de ferramentas.
+* Tudo fica dentro do Javascript;
+* React / ReactJS / React Native;
+
+Vantagens
+
+* Oeganização do código;
+  * Componentização;
+* Divisão de responsabilidades;
+  * Back-end: Regra de negócios;
+  * Front-end: Interface;
+* Uma API, múltiplos clientes;
+* Prgramação declarativa;
+
+JSX
+
+* Escrever HTML dentro do Javascript;
+* Com React podemos criar nossos prórios elementos;
+
+Programação Imperativa VS declarativa;
+
+Babel / Webpack
+
+* O browser não entende todo esse código react;
+* O Babel converte o código JS de uma forma que o browser entenda;
+* O Webpack possui várias funções;
+  * Criação do Bundle, arquivo com todo código da aplicação;
+  * Ensina ao Javascript como importar arquivos CSS, imagens e etc;
+  * Live Reload com Webpack Dev Server;

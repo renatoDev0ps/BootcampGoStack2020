@@ -1,0 +1,5 @@
+Tipos de Parâmetros
+
+Query params: Principalmente para filtros e paginação
+Route params: Identificar recursos (Atualizar/Deletar)
+Request Body: Conteúdo na hpra de criar ou editar um recurso (JSON)

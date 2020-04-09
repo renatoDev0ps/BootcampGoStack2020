@@ -1,0 +1,44 @@
+Como funciona?
+
+* Fluxo da requisição e resposta:
+  * Requisição feita por um cliente;
+  * Resposta retornada através de uma estrutura de dados;
+  * Cliente recebe resposta e processa resultado;
+* As rotas utilizam métodos HTTP:
+  * GET http://minhaapi.com/users
+  * POST http://minhaapi.com/users
+  * PUT http://minhaapi.com/users/1
+  * DELETE http://minhaapi.com/users/1
+  
+Benefícios
+
+* Multiplos clientes(front-end), no mesmo back-end;
+* Protocolo de cumnicação padronizado;
+  * Mesma estrutura para web / mobile / API pública;
+  * Comunicação com serviços externos;
+
+Conteúdo da requisição
+
+GET http://api.com/company/1/users?page=2
+
+Route: "/company/" e "/users/"
+Route Params: "/1/"
+Query params: "?page=2"
+
+POST http://api.com/company/1/users
+
+{
+  "user": {
+    "name": "Fulano",
+    "email": "fulano@email.com",
+    "techs": ["ReactJS", "NodeJS", "React Native"]
+  }
+}
+
+Headers
+{
+  "Locale": "pt-BR"
+}
+
+Body (Apesnas POST/PUT)
+Headers

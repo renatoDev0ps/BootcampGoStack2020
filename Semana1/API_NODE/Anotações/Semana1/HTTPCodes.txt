@@ -1,0 +1,19 @@
+HTTP Codes
+
+* 1xx: Informational
+
+* 2xx: Success
+  * 200: success
+  * 201: created
+
+* 3xx: Redirection
+  * 301: Moved Permanently
+  * 302: Moved
+
+* 4xx: Client Error
+  * 400: Bad Request
+  * 401: Unauthorized
+  * 404: not Found
+
+* 5xx: Server Error
+  * 500: Internal Server Error

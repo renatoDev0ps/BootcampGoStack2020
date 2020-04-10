@@ -31,3 +31,20 @@ Babel / Webpack
   * Criação do Bundle, arquivo com todo código da aplicação;
   * Ensina ao Javascript como importar arquivos CSS, imagens e etc;
   * Live Reload com Webpack Dev Server;
+
+Conceitos importantes do React
+* Propriedade
+* component
+* Estado & Imutabilidade
+
+* O useState retorna um array com 2 posições
+  * Na primeira posiçõa retorna a variável com seu valor inicial
+  * Na segunda posição retorna uma função para alterar o valor da variável
+
+* useEffect é utilizada para disparar funções quando tiver alguma informação 
+alterada ou não assim que o componente for exibido em tela
+* o useEffect recebe dois parametros:
+  * o primeiro é uma função que irá execura um bloco de instrução assim que o componente carregar
+  * o segurndo é um array:
+    * se estiver vazio vai excutar a função somente quando o componente for carregado
+    * se receber parâmetros, vai excutar toda vez que esse parâmetro for modificado

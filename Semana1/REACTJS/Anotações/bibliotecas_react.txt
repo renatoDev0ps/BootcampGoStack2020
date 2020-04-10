@@ -2,7 +2,7 @@
 * webpack: Pra cada tipo de arquivo (.js, .css, .png) eu vou converter o código de uma maneira diferente
 * loaders: babel-loader, css-loader, image-loader
 
-yarn add @babel/core @babel/preset-env @babel/preset-react babel-loader webpack webpack-cli
+yarn add @babel/core @babel/preset-env @babel/preset-react @babel/plugin-transform-runtime babel-loader webpack webpack-cli
 
  @babel/cli para rodar yarn babel src/index.js --out-file public/bundle.js
 

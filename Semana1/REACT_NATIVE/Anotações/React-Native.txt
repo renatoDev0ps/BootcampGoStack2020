@@ -1,0 +1,40 @@
+O que é o React Native?
+
+* Versão de React para desenvolvimento mobile;
+* Multiplataforma;
+* Podemos manipular cada plataforma de forma diferente;
+* Interface nativa ou híbrida;
+* Código não é transpilado;
+* Outra plataformas migrando, Microsoft com Windows;
+
+Arquitetura
+
+* Javascript
+* Metro Bundler
+* Bundler
+* Bridge
+  * Android
+  * Objective C
+
+Sintaxe
+
+* Declaração igual da web;
+* Não usa HTML e sim componentes próprios;
+* Aplicamos estilo sem classe ou ID's;
+* Todo texto é <Text/>>, não existe estilização própria;
+
+O que é Expo? Vamos usar?
+
+* SDK com um conjunto de funcionalidades prontas para usar(câmera, vídeo, integrações);
+* Não é necessário configurar emulador;
+
+Por que não vamos utilizar?
+
+* Limitação sobre o controle do código nativo;
+* Várias bibliotecas não tem suporte para o Expo;
+* O Expo liberou seu conjunto de ferramentas prontas para serem utilizadas com 
+  projetos que não utilizam Expo;
+
+* View -> Substitui as tags do HTML: div, footer, header, main, aside, section;
+* Text -> Substitui: p, span, strong, h1, h2, h3;
+* Display: flex -> Padrão para todos os elementos no react-native;

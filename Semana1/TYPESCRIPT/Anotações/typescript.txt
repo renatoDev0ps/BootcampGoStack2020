@@ -1,0 +1,14 @@
+Por que TypeScript?
+
+* Desafio: Incluir a informação da cidade e UF do usuário nesse retorno;
+  * Qual o formato do objeto de usuário?
+  * Utilizo user.city ou user.address.city?
+  * Será que a cidade e UF são obrigatórias?
+
+  Mitos e Verdades
+
+  * TypeScript diminui a produtividade
+  * TypeScript é transformar Javascript em Java ou C#
+  * O mercado não usa TypeScript
+  * TypeScript substitui o JavaScript por completo
+  * TypeScript atrapalha quem é iniciante

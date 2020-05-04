@@ -1,0 +1,32 @@
+version: "3.3"
+services:
+  postgresSQL:
+    container_name: postgresSQL
+    image: postgres:latest
+    hostname: postgresSQL
+    restart: unless-stopped
+    environment:
+      POSTGRES_PASSWORD: "postgres"
+      POSTGRES_USER: postgres
+    ports:
+      - "5432:5432"
+    networks:
+      - services-network
+
+  pgadmin4:
+    container_name: pgadmin4
+    image: dpage/pgadmin4
+    restart: unless-stopped
+    environment:
+      PGADMIN_DEFAULT_EMAIL: pgadmin4@pgadmin.org
+      PGADMIN_DEFAULT_PASSWORD: "postgres"
+    ports:
+      - "5050:80"
+    depends_on:
+      - postgresSQL
+    networks:
+      - services-network
+
+networks:
+  services-network:
+    driver: bridge
